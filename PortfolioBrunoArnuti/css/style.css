@@ -1,0 +1,140 @@
+/* Comentario */
+
+/* Reset */
+
+*{
+    /* Propiedad para el expacio externo */
+    margin: 0;
+    /* Propiedad para el espacio interno */
+    padding: 0;
+    /*  */
+    box-sizing: border-box;
+}
+
+h1{
+    color:#EE6C4D;
+    text-align: center;
+    font-size: 60px;
+}
+
+#homeName{
+    margin-top: 200px;
+}
+
+h2{
+    color: #E0FBFC;
+    text-align: center;
+    font-size: 35px;
+}
+
+#homeDesc{
+    margin-bottom: 350px;
+}
+
+h3{
+    color: #98C1D9;
+    font-size: 30px;
+}
+
+body{
+    background-color:#293241;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    text-align: center;
+    font-size: 30px;
+}
+
+header nav ul li a{
+    color: #98C1D9;
+    text-decoration: none;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main p{
+    color: #E0FBFC;
+    font-size: 20px;
+}
+
+main div{
+    background-color: #EE6C4D;
+    padding: 20px;
+}
+
+#socialMediaGroup{
+    margin-bottom: 100px;
+}
+
+#socialMediaHome{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+#homeGames{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #293241;
+    
+}
+
+#homeGameCards{
+    background-color: #293241;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: inline-block;
+}
+
+#homeGameTitle{
+    font-size: 40px;
+}
+
+main form div label{
+    font-size: 35px;
+}
+
+footer{
+    background-color: #EE6C4D;
+}
+
+#copyright{
+    color:#293241;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#menuSelection{
+    display: inline;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#menuGroup{
+    background-color: #293241;
+    margin-top: 30px;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+
+/* Class */
+
+.subtitle{
+    color: #98C1D9;
+    font-size: 60px;
+}
+
+/* ID */
+
