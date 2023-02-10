@@ -134,6 +134,49 @@ footer{
     font-size: 40px;
 }
            
+/* --------------------- a Game Page ---------------------------- */
+
+#aGameImages{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#aGameSkills{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#aSkill{
+    padding: 20px;
+}
+
+#gameDescription{
+    text-align: justify;
+    padding: 40px;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#tryTheGame{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#myRole{
+    padding: 50px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 30px;
+}
+
 /* ---------------------------------------------------------------- */
 
 #copyright{
