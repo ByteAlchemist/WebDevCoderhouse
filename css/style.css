@@ -1,6 +1,6 @@
 /* Comentario */
 
-/* Reset */
+/* ---------------- Reset ----------------*/
 
 *{
     /* Propiedad para el expacio externo */
@@ -11,25 +11,7 @@
     box-sizing: border-box;
 }
 
-h1{
-    color:#EE6C4D;
-    text-align: center;
-    font-size: 60px;
-}
-
-#homeName{
-    margin-top: 200px;
-}
-
-h2{
-    color: #E0FBFC;
-    text-align: center;
-    font-size: 35px;
-}
-
-#homeDesc{
-    margin-bottom: 350px;
-}
+/* ---------------- GENERAL ----------------*/
 
 h3{
     color: #98C1D9;
@@ -41,27 +23,66 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-header{
+/* -------------------------------- Name & Desc --------------------------------*/
+
+h1{
+    color:#EE6C4D;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    color: #E0FBFC;
+    text-align: center;
+    font-size: 35px;
+}
+
+#homeName{
+    margin-top: 200px;
+}
+
+#homeDesc{
+    margin-bottom: 350px;
+}
+
+/* -------------------------------- HEADER -------------------------------- */
+
+header {
     position: sticky;
     top: 0;
 }
 
-header nav ul{
-    list-style: none;
-}
-
-header nav ul li{
+header div div {
     text-align: center;
-    font-size: 30px;
 }
 
-header nav ul li a{
+header div div a{
+    list-style: none;
+    font-size: 30px;
     color: #98C1D9;
     text-decoration: none;
 }
 
+#menuSelection{
+    background-color:#293241;
+    width: 100px;
+    height: 50px;
+    margin: 18px;
+}
+
+#menuGroup{
+    background-color: #293241;
+
+    /* Propiedad de flex */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ---------------- MAIN ---------------- */
+
 main a{
     text-decoration: none;
+    
 }
 
 main p{
@@ -69,45 +90,57 @@ main p{
     font-size: 20px;
 }
 
-main div{
-    background-color: #EE6C4D;
-    padding: 20px;
-}
 
-#socialMediaGroup{
-    margin-bottom: 100px;
-}
-
-#socialMediaHome{
-    margin-right: 250px;
-    margin-left: 250px;
-}
-
-#homeGames{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background-color: #293241;
-    
-}
-
-#homeGameCards{
-    background-color: #293241;
-    margin-left: 140px;
-    margin-right: 140px;
-    display: inline-block;
-}
-
-#homeGameTitle{
-    font-size: 40px;
-}
 
 main form div label{
     font-size: 35px;
 }
 
+/* ---------------- FOOTER  ----------------*/
+
 footer{
     background-color: #EE6C4D;
 }
+
+/* ---------------- SocialMedia MainPage  ----------------*/
+
+#socialMediaGroup {
+    background-color: #EE6C4D;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#socialMediaHome{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* ------------------- GAMES & PROJECTS SECTION ------------------- */
+
+#homeGames{
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    background-color: #293241;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#homeGameCards{
+    background-color: #293241;
+    padding: 20px;
+    /* margin-left: 140px; */
+    /* margin-right: 140px; */
+    /* display: inline-block; */
+}
+
+#homeGameTitle{
+    text-align: center;
+    font-size: 40px;
+}
+           
+/* ---------------------------------------------------------------- */
 
 #copyright{
     color:#293241;
@@ -115,25 +148,10 @@ footer{
     text-align: center;
 }
 
-
-#menuSelection{
-    display: inline;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-#menuGroup{
-    background-color: #293241;
-    margin-top: 30px;
-    padding-left: 250px;
-    padding-right: 100px;
-}
-
-/* Class */
-
 .subtitle{
     color: #98C1D9;
     font-size: 60px;
+    padding: 60px;
 }
 
 /* ID */

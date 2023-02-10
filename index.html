@@ -18,29 +18,23 @@
 <body>
     <header>
         <div id="menuGroup">
-            <!-- Menu de navegacion -->
-            <nav>
-                <!-- Lista desordenada -->
-                <ul>
-                    <li id="menuSelection"> 
-                        <a href="index.html">Home</a> 
-                    </li>
-                    <li id="menuSelection"> 
-                        <!-- No implementado aun, no tengo claro si ira esta pagina o no -->
-                        <a href="">Games</a>
-                    </li>
-                    <li id="menuSelection"> 
-                        <a href="pages/skills.html">Skills</a>
-                    </li>
-                    <li id="menuSelection"> 
-                        <a href="pages/about.html">About</a> 
-                    </li>
-                    <li id="menuSelection"> 
-                        <a href="pages/contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <div id="menuSelection">
+                <a href="index.html">Home</a> 
+            </div>
+            <div id="menuSelection">
+                <a href="">Games</a>
+            </div>
+            <div id="menuSelection">
+                <a href="pages/skills.html">Skills</a>
+            </div>
+            <div id="menuSelection">
+                <a href="pages/about.html">About</a> 
+            </div>
+            <div id="menuSelection">
+                <a href="pages/contact.html">Contact</a>
+            </div>
         </div>
+        
     </header>
 
     <!-- Contenido principal -->
@@ -50,15 +44,21 @@
 
         <!-- Redes sociales -->
         <div id="socialMediaGroup">
-            <a href="">
-                <img src="img/github.png" alt="" width="100" height="100" id="socialMediaHome">
-            </a>   
-            <a href="">
-                <img src="img/linkedin.png" alt="" width="100" height="100" id="socialMediaHome">
-            </a>    
-            <a href="">
-                <img src="img/google-play.png" alt="" width="100" height="100" id="socialMediaHome">
-            </a>    
+            <div id="socialMediaHome">
+                <a href="">
+                    <img src="img/github.png" alt="" width="60" height="60">
+                </a>
+            </div>
+            <div id="socialMediaHome">
+                <a href="">
+                    <img src="img/linkedin.png" alt="" width="60" height="60">
+                </a> 
+            </div>
+            <div id="socialMediaHome">
+                <a href="">
+                    <img src="img/google-play.png" alt="" width="60" height="60">
+                </a> 
+            </div>
         </div>   
 
         <!-- Mis proyectos -->
@@ -69,8 +69,10 @@
         <div id="homeGames">
             <div id="homeGameCards">
                 <a href="pages/mygame.html" id="homeGameImage">
-                    <img src="img/game_example1.jpg" alt="" width="600" height="400">
-                    <h3 id="homeGameTitle" > Game 1 </h3>
+                    <img src="img/game_example1.png" alt="" width="600" height="400">
+                    <a href="https://globalgamejam.org/2023/games/cimarron-roots-liberty-6">
+                        <h3 id="homeGameTitle" > Cimarron (Global Game Jam 2023) </h3>
+                    </a>
                 </a>
             </div>
             
