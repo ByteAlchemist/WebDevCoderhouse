@@ -48,34 +48,30 @@ h2{
 /* -------------------------------- HEADER -------------------------------- */
 
 header {
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
-header div div {
-    text-align: center;
-}
-
-header div div a{
+header div div div a{
     list-style: none;
     font-size: 30px;
     color: #98C1D9;
     text-decoration: none;
 }
 
-#menuSelection{
+.menuSelection{
     background-color:#293241;
-    width: 100px;
+    /* width: 100px;
     height: 50px;
-    margin: 18px;
+    margin: 18px; */
 }
 
-#menuGroup{
+.menuGroup{
     background-color: #293241;
-
+    height: 60px;
     /* Propiedad de flex */
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
 }
 
 /* ---------------- MAIN ---------------- */
@@ -102,84 +98,112 @@ footer{
 
 /* ---------------- SocialMedia MainPage  ----------------*/
 
-#socialMediaGroup {
+.socialMediaGroup {
     background-color: #EE6C4D;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
 }
 
-#socialMediaHome{
-    margin-right: 50px;
-    margin-left: 50px;
+.socialMediaHome{
+    transition: 1s;
+}
+
+.socialMediaHome:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    /* margin-right: 50px;
+    margin-left: 50px; */
 }
 
 /* ------------------- GAMES & PROJECTS SECTION ------------------- */
 
-#homeGames{
+.GamesCards{
     background-color: #293241;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
 }
 
-#homeGameCards{
+.GameCard{
     background-color: #293241;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
-#homeGameTitle{
+.GameCard{
+    transition: 1s;
+}
+
+.GameCard:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.GameCardTitle{
     text-align: center;
     font-size: 40px;
 }
-           
+
 /* --------------------- a Game Page ---------------------------- */
 
-#aGameImages{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.aGameImages{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-#aGameSkills{
-    padding: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.responsiveImg{
+    width: 100%;
+    height: auto;
 }
 
-#aSkill{
+.aGameSkills{
+    padding: 50px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+}
+
+.aSkill{
     padding: 20px;
 }
 
-#gameDescription{
-    text-align: justify;
-    padding: 40px;
-    font-size: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-#tryTheGame{
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-}
-
-#myRole{
-    padding: 50px;
+.gameDescription{
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding: 40px; */
+    font-size: 30px;
+    /* height: 150px; */
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
+}
+
+.tryTheGame{
+    transition: 1s;
+}
+
+.tryTheGame:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 50px; */
+}
+
+.myRole{
+    /* padding: 50px; */
+    text-align: center;
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
     font-size: 30px;
 }
 
 /* ---------------------------------------------------------------- */
 
-#copyright{
+.copyright div{
     color:#293241;
     font-size: 20px;
     text-align: center;
@@ -188,8 +212,8 @@ footer{
 .subtitle{
     color: #98C1D9;
     font-size: 60px;
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-/* ID */
-
+/* */

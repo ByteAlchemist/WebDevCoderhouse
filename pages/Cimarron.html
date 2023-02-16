@@ -9,86 +9,113 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Sofia+Sans:wght@400;500&display=swap" rel="stylesheet">
     <!-- Estilos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>My Game</title>
 </head>
 <body>
-    <header>
-        <div id="menuGroup">
-            <div id="menuSelection">
-                <a href="index.html">Home</a> 
-            </div>
-            <div id="menuSelection">
-                <a href="">Games</a>
-            </div>
-            <div id="menuSelection">
-                <a href="pages/skills.html">Skills</a>
-            </div>
-            <div id="menuSelection">
-                <a href="pages/about.html">About</a> 
-            </div>
-            <div id="menuSelection">
-                <a href="pages/contact.html">Contact</a>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-around menuGroup">
+                    <div class="menuSelection">
+                        <a href="../index.html">Home</a> 
+                    </div>
+                    <div class="menuSelection">
+                        <a href="">Games</a>
+                    </div>
+                    <div class="menuSelection">
+                        <a href="skills.html">Skills</a>
+                    </div>
+                    <div class="menuSelection">
+                        <a href="about.html">About</a> 
+                    </div>
+                    <div class="menuSelection">
+                        <a href="contact.html">Contact</a>
+                    </div>
             </div>
         </div>
-        
     </header>
 
-    <main>
+    <main class="container-fluid">
 
-        <!-- Nombre del juego -->
-        <h1> Cimarron (Global Game Jam 2023) </h1>
+        <div class="row justify-content-center">
+                <!-- Nombre del juego -->
+            <h1 class="col-sm-12 mt-5"> Cimarron (Global Game Jam 2023) </h1>
 
-        <!-- Video de la demo o trailer del juego -->
-        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/EaDqEigOc44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+            <div class="container-fluid">
+                <div class="row justify-content-around aGameImages">
 
-        <!-- Imagenes del juego -->
-        <div id="aGameImages">
-            <div id="gameImage">
-                <img src="../img/my_game1.png" alt="" width="600" height="460">
+                    <div class="col-md-5 mt-5 gameImage">
+                        <img src="../img/my_game1.png" alt="" class="responsiveImg">
+                    </div>
+                    <div class="col-md-5 mt-5 gameImage">
+                        <img src="../img/mygame_2.png" alt="" class="responsiveImg">
+                    </div>
+                </div>
             </div>
-            <div id="gameImage">
-                <img src="../img/mygame_2.png" alt="" width="600" height="460">
+            
+            <div>
+                <!-- Descripcion del juego -->
+                <p class="col-md-12 col-sm-12 gameDescription">
+                    On an island plantation in the Spanish Antilles in the 19th century, a magical yucca will be the tool for Cimarrón (a fugitive slave) to find his freedom.
+                </p>
+
             </div>
+
+            <div class="col-md-12 col-sm-12 mt-5">
+                <h2>
+                    You can try it here
+                </h2>
+            </div>
+            
+            <div class="col-md-5 col-sm-5 mt-5 mb-5 tryTheGame">
+                <a href="https://cimarrongames.itch.io/roots-of-liberty">
+                    <!-- 350 110 -->
+                    <img src="../img/itchio-logo-black.png" alt="" class="responsiveImg">
+                </a>
+            </div>
+
+            <div class="col-sm-12">
+                <!-- Mi rol en el desarrollo -->
+                <h2 >My Role</h2>
+            </div>
+
+            <div class="col-sm-12 mt-5 mb-5">
+                <p class="myRole"> This game was made during the Global Game Jam 2023 event, I participated mainly as a programmer using Unity and C#, I also helped generating the music with the help of AI using beatoven.ai</p>
+            </div>
+
+            <div class="col-sm-12 mt5">
+                <!-- Las tecnologias, frameworks y habilidades que se usaron -->
+                <h2>Technologies used/Skills</h2>
+            </div>
+            
+            <!-- Imagen de los iconos de las herramientas -->
+            <div class="container-fluid">
+                <div class="row justify-content-around aGameSkills">
+                        <div class="aSkill">
+                            <img src="../img/c-sharp.png" alt="" class="responsiveImg">
+                        </div>
+                        <div class="aSkill">
+                            <img src="../img/unity.png" alt="" class="responsiveImg">
+                        </div>
+                        <div class="aSkill">
+                            <img src="../img/Houdini3D.png" alt="" class="responsiveImg">
+                        </div>
+                </div>
+            </div>
+            
         </div>
 
-        <!-- Descripcion del juego -->
-        <p id="gameDescription"> On an island plantation in the Spanish Antilles in the 19th century, a magical yucca will be the tool for Cimarrón (a fugitive slave) to find his freedom.</p>
-
-        <h2>You can try it here</h2>
-
-        <div id="tryTheGame">
-            <a href="https://cimarrongames.itch.io/roots-of-liberty">
-                <img src="../img/itchio-logo-black.png" alt="" width="350" height="110">
-            </a>
-        </div>
-
-        <!-- Mi rol en el desarrollo -->
-        <h2>My Role</h2>
-
-        <p id="myRole"> This game was made during the Global Game Jam 2023 event, I participated mainly as a programmer using Unity and C#, I also helped generating the music with the help of AI using beatoven.ai</p>
-
-        <!-- Las tecnologias, frameworks y habilidades que se usaron -->
-        <h2>Technologies used/Skills</h2>
-
-        <!-- Imagen de los iconos de las herramientas -->
-
-        <div id="aGameSkills">
-            <div id="aSkill">
-                <img src="../img/c-sharp.png" alt="" width="100" height="100">
-            </div>
-            <div id="aSkill">
-                <img src="../img/unity.png" alt="" width="100" height="100">
-            </div>
-            <div id="aSkill">
-                <img src="../img/Houdini3D.png" alt="" width="100" height="100">
-            </div>
-        </div>
+        
 
     </main>
     
-    <footer>
-        <h4 id="copyright">Copyright 2023</h4>
+    <footer class="container-fluid">
+        <div class="row justify-content-center">
+            <h4 class="copyright">Copyright 2023</h4>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
