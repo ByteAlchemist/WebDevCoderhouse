@@ -1,0 +1,244 @@
+/* Comentario */
+
+@import "variables/vars";
+
+/* ---------------- Reset ----------------*/
+*{
+    /* Propiedad para el expacio externo */
+    margin: 0;
+    /* Propiedad para el espacio interno */
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ---------------- GENERAL ----------------*/
+  h3{
+    color: $color-letra;
+    font-size: 30px;
+  }
+  
+  body{
+    background-color:$color-principal;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  /* -------------------------------- Name & Desc --------------------------------*/
+  h1{
+    color:$color-naranja;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  h2{
+    color: $color-s;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  #homeName{
+    margin-top: 200px;
+  }
+  
+  #homeDesc{
+    margin-bottom: 350px;
+  }
+  
+  /* -------------------------------- HEADER -------------------------------- */
+  header {
+    /* position: sticky;
+    top: 0; */
+  }
+  #center{
+    postition:absolute;
+  }
+  header div div div a{
+    list-style: none;
+    font-size: 30px;
+    color:  $color-letra;
+    text-decoration: none;
+  }
+  
+  .menuSelection{
+    background-color: $color-principal;
+    /* width: 100px;
+    height: 50px;
+    margin: 18px; */
+  }
+  
+  .menuGroup{
+    background-color: $color-principal;
+    height: 60px;
+    /* Propiedad de flex */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+  }
+  
+  /* ---------------- MAIN ---------------- */
+  main{
+    a{
+      text-decoration: none;
+    }
+    p{
+      color: $color-s;
+      font-size: 20px;
+    }
+    form{
+      div{
+        label{
+          font-size: 35px;
+        }
+      }
+    }
+  }
+  
+  /* ---------------- FOOTER  ----------------*/
+  footer{
+    background-color: $color-naranja
+  }
+  
+  /* ---------------- SocialMedia MainPage  ----------------*/
+  .socialMediaGroup {
+    background-color: $color-naranja;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+  }
+  .socialMediaHome{
+    transition: 1s;
+  }
+  .socialMediaHome:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    /* margin-right: 50px;
+    margin-left: 50px; */
+  }
+  
+  /* ------------------- GAMES & PROJECTS SECTION ------------------- */
+  .GamesCards{
+    background-color: $color-principal;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+  }
+  .GameCard{
+    background-color: $color-principal;
+    /* padding: 20px; */
+  }
+  .GameCard{
+    transition: 1s;
+  }
+  .GameCard:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  .GameCardTitle{
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  /* --------------------- a Game Page ---------------------------- */
+  .aGameImages{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .responsiveImg{
+    width: 100%;
+    height: auto;
+  }
+  .aGameSkills{
+    padding: 50px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+
+  }
+  
+
+/* --------------------- a Game Page ---------------------------- */
+
+.aGameImages{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.responsiveImg{
+    width: 100%;
+    height: auto;
+}
+
+.aGameSkills{
+    padding: 50px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+
+    .aSkill{
+        padding: 20px;
+    }
+}
+
+.gameDescription{
+    text-align: center;
+    /* padding: 40px; */
+    font-size: 30px;
+    /* height: 150px; */
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
+}
+
+.tryTheGame{
+    transition: 1s;
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+
+.myRole{
+    /* padding: 50px; */
+    text-align: center;
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
+    font-size: 30px;
+}
+
+/* ---------------------------------------------------------------- */
+
+label,
+input {
+  color: $color-letra;
+}
+
+#copyright{
+    color:$color-principal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.subtitle{
+    color:  $color-letra;
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.div-wrapper {
+    height: 200px;
+    margin-top: 40px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+
+    .div-to-align {
+        width: 75%;
+        padding: 40px 20px;
+ 
+        /* .... */
+    }
+}

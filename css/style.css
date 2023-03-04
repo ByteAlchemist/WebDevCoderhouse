@@ -1,219 +1,200 @@
 /* Comentario */
-
 /* ---------------- Reset ----------------*/
-
-*{
-    /* Propiedad para el expacio externo */
-    margin: 0;
-    /* Propiedad para el espacio interno */
-    padding: 0;
-
-    box-sizing: border-box;
-}
+* {
+  /* Propiedad para el expacio externo */
+  margin: 0;
+  /* Propiedad para el espacio interno */
+  padding: 0;
+  box-sizing: border-box; }
 
 /* ---------------- GENERAL ----------------*/
+h3 {
+  color: #98C1D9;
+  font-size: 30px; }
 
-h3{
-    color: #98C1D9;
-    font-size: 30px;
-}
-
-body{
-    background-color:#293241;
-    font-family: 'Oswald', sans-serif;
-}
+body {
+  background-color: #293241;
+  font-family: 'Oswald', sans-serif; }
 
 /* -------------------------------- Name & Desc --------------------------------*/
+h1 {
+  color: #EE6C4D;
+  text-align: center;
+  font-size: 60px; }
 
-h1{
-    color:#EE6C4D;
-    text-align: center;
-    font-size: 60px;
-}
+h2 {
+  color: #E0FBFC;
+  text-align: center;
+  font-size: 35px; }
 
-h2{
-    color: #E0FBFC;
-    text-align: center;
-    font-size: 35px;
-}
+#homeName {
+  margin-top: 200px; }
 
-#homeName{
-    margin-top: 200px;
-}
-
-#homeDesc{
-    margin-bottom: 350px;
-}
+#homeDesc {
+  margin-bottom: 350px; }
 
 /* -------------------------------- HEADER -------------------------------- */
-
 header {
-    /* position: sticky;
-    top: 0; */
-}
+  /* position: sticky;
+    top: 0; */ }
 
-header div div div a{
-    list-style: none;
-    font-size: 30px;
-    color: #98C1D9;
-    text-decoration: none;
-}
+#center {
+  postition: absolute; }
 
-.menuSelection{
-    background-color:#293241;
-    /* width: 100px;
+header div div div a {
+  list-style: none;
+  font-size: 30px;
+  color: #98C1D9;
+  text-decoration: none; }
+
+.menuSelection {
+  background-color: #293241;
+  /* width: 100px;
     height: 50px;
-    margin: 18px; */
-}
+    margin: 18px; */ }
 
-.menuGroup{
-    background-color: #293241;
-    height: 60px;
-    /* Propiedad de flex */
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-}
+.menuGroup {
+  background-color: #293241;
+  height: 60px;
+  /* Propiedad de flex */
+  /* display: flex; */
+  /* justify-content: space-evenly; */ }
 
 /* ---------------- MAIN ---------------- */
+main a {
+  text-decoration: none; }
 
-main a{
-    text-decoration: none;
-    
-}
+main p {
+  color: #E0FBFC;
+  font-size: 20px; }
 
-main p{
-    color: #E0FBFC;
-    font-size: 20px;
-}
-
-main form div label{
-    font-size: 35px;
-}
+main form div label {
+  font-size: 35px; }
 
 /* ---------------- FOOTER  ----------------*/
-
-footer{
-    background-color: #EE6C4D;
-}
+footer {
+  background-color: #EE6C4D; }
 
 /* ---------------- SocialMedia MainPage  ----------------*/
-
 .socialMediaGroup {
-    background-color: #EE6C4D;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-evenly; */
-}
+  background-color: #EE6C4D;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-evenly; */ }
 
-.socialMediaHome{
-    transition: 1s;
-}
+.socialMediaHome {
+  transition: 1s; }
 
-.socialMediaHome:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    /* margin-right: 50px;
-    margin-left: 50px; */
-}
+.socialMediaHome:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  /* margin-right: 50px;
+    margin-left: 50px; */ }
 
 /* ------------------- GAMES & PROJECTS SECTION ------------------- */
+.GamesCards {
+  background-color: #293241;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */ }
 
-.GamesCards{
-    background-color: #293241;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
-}
+.GameCard {
+  background-color: #293241;
+  /* padding: 20px; */ }
 
-.GameCard{
-    background-color: #293241;
-    /* padding: 20px; */
-}
+.GameCard {
+  transition: 1s; }
 
-.GameCard{
-    transition: 1s;
-}
+.GameCard:hover {
+  transform: scale(1.1);
+  transition: 0.5s; }
 
-.GameCard:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.GameCardTitle{
-    text-align: center;
-    font-size: 40px;
-}
+.GameCardTitle {
+  text-align: center;
+  font-size: 40px; }
 
 /* --------------------- a Game Page ---------------------------- */
+.aGameImages {
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+  padding-top: 60px;
+  padding-bottom: 60px; }
 
-.aGameImages{
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+.responsiveImg {
+  width: 100%;
+  height: auto; }
 
-.responsiveImg{
-    width: 100%;
-    height: auto;
-}
+.aGameSkills {
+  padding: 50px;
+  /* display: flex; */
+  /* justify-content: space-evenly; */ }
 
-.aGameSkills{
-    padding: 50px;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
-}
+/* --------------------- a Game Page ---------------------------- */
+.aGameImages {
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+  padding-top: 60px;
+  padding-bottom: 60px; }
 
-.aSkill{
-    padding: 20px;
-}
+.responsiveImg {
+  width: 100%;
+  height: auto; }
 
-.gameDescription{
-    text-align: center;
-    /* padding: 40px; */
-    font-size: 30px;
-    /* height: 150px; */
-    /* padding-left: 200px; */
-    /* padding-right: 200px; */
-}
+.aGameSkills {
+  padding: 50px;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */ }
+  .aGameSkills .aSkill {
+    padding: 20px; }
 
-.tryTheGame{
-    transition: 1s;
-}
+.gameDescription {
+  text-align: center;
+  /* padding: 40px; */
+  font-size: 30px;
+  /* height: 150px; */
+  /* padding-left: 200px; */
+  /* padding-right: 200px; */ }
 
-.tryTheGame:hover{
+.tryTheGame {
+  transition: 1s; }
+  .tryTheGame:hover {
     transform: scale(1.1);
-    transition: 0.5s;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* padding: 50px; */
-}
+    transition: 0.5s; }
 
-.myRole{
-    /* padding: 50px; */
-    text-align: center;
-    /* padding-left: 200px; */
-    /* padding-right: 200px; */
-    font-size: 30px;
-}
+.myRole {
+  /* padding: 50px; */
+  text-align: center;
+  /* padding-left: 200px; */
+  /* padding-right: 200px; */
+  font-size: 30px; }
 
 /* ---------------------------------------------------------------- */
+label,
+input {
+  color: #98C1D9; }
 
-.copyright div{
-    color:#293241;
-    font-size: 20px;
-    text-align: center;
-}
+#copyright {
+  color: #293241;
+  font-size: 20px;
+  text-align: center; }
 
-.subtitle{
-    color: #98C1D9;
-    font-size: 60px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+.subtitle {
+  color: #98C1D9;
+  font-size: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px; }
 
-/* */
+.div-wrapper {
+  height: 200px;
+  margin-top: 40px;
+  border: 2px dashed #ddd;
+  border-radius: 8px; }
+  .div-wrapper .div-to-align {
+    width: 75%;
+    padding: 40px 20px;
+    /* .... */ }
